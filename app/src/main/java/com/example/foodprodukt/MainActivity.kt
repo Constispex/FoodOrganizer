@@ -29,10 +29,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting() {
-    Column() {
-
-    }
+    UIBase.getHeader(0)
 }
+
+
 
 @Preview(showBackground = true)
 @Composable
